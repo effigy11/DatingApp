@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
-/* Importing Bootstrap SCSS file. */
+/* Importing Bootstrap Variables. */
+@import '~bootswatch/dist/united/variables';
+
+/* Importing Main Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+/* Importing Bootstrap Overrides. */
+@import '~bootswatch/dist/united/bootswatch';
+@import '~font-awesome/scss/font-awesome';
+@import '~ngx-toastr/toastr';
