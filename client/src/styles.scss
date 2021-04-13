@@ -10,3 +10,6 @@
 @import '~bootswatch/dist/united/bootswatch';
 @import '~font-awesome/scss/font-awesome';
 @import '~ngx-toastr/toastr';
+
+/* Importing Custom Global Styles */
+@import './assets/_sass/ngxTabs.scss'
